@@ -1,0 +1,128 @@
+.demo-editor,
+.demo-editor .box{
+	overflow: visible;
+}
+.demo-editor h6{
+	font-size: 1rem;
+	letter-spacing: 0.1rem;
+	margin-top: 0.6rem !important;
+	margin-bottom: 0.4rem;
+}
+.demo-editor .style-element-wrapper{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	margin-bottom: 1.5rem;
+	border-top-left-radius: 0;
+	float: left;
+}
+.demo-editor .html-example-wrapper{
+	margin-bottom: 1.5rem;
+	position: relative;
+}
+.demo-editor .html-example-wrapper > .button{
+	padding: 0.4rem;
+	position: absolute;
+	right: 5rem;
+	bottom: -2rem;
+}
+.demo-editor .class-field, 
+.demo-editor .html-example{
+	width: 100%;
+	min-height: 4.5rem;
+	color: #666;
+	padding: 1.5rem 1rem;
+	outline: none;
+	position: relative;
+}
+.demo-editor .class-field{
+	margin-bottom: -0.1rem;
+	overflow: hidden;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.demo-editor .html-example{
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	background: #fff;
+}
+.demo-editor .class-field .label{
+	margin-right: 0.3rem;
+	border-radius: 0.3rem;
+	background: #333;
+	border: none;
+	color: #fff;
+	white-space: nowrap;
+}
+.demo-editor .class-field .label a{
+	color: #666;
+}
+.demo-editor .class-field .label a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.demo-editor .class-field:focus,
+.demo-editor .html-example:focus{
+	z-index: 1;
+}
+.demo-editor .class-field:empty:not(:focus):before{
+	content: attr(data-place-holder-text);
+}
+.demo-editor .button, 
+.demo-editor button{
+	margin-bottom: 0;
+}
+.demo-editor .dropdown-group div{
+	display: inline-block;
+}
+.editor-options .dropdown{
+	width: 13rem;
+	display: inline-block;
+	margin-bottom: 0.5rem;
+}
+.editor-options .dropdown .dropdown-list{
+	width: 18rem;
+	max-height: 20rem;
+	overflow: scroll;
+}
+.editor-options .dropdown .button{
+	font-size: 1.1rem;
+}
+.editor-options .dropdown .dropdown-list li a{
+	font-size: 1.1rem;
+}
+.editor-options .dropdown .button, 
+.editor-options .dropdown button {
+	padding: 0.6rem 0.8rem;
+}
+.demo-editor .dropdown-components .button,
+.demo-editor .dropdown-components button{
+	min-width: 15rem;
+}
+.demo-editor .dropdown-components [class*="icon-"]{
+	float: right;
+}
+
+/* Component Specific*/
+.demo-editor .style-element-wrapper .button{
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+}
+.demo-editor .style-element-wrapper .icon-demo{
+	margin-right: 1rem;
+}
+.demo-editor .style-element-wrapper .overlay-info .button, 
+.demo-editor .style-element-wrapper .overlay-info [class*="icon-"]{
+	margin-right: 0;
+	margin-bottom: 0;
+}
+.demo-editor .style-element-wrapper .button-nav .button{
+	margin-right: 0;
+	margin-bottom: 0;
+}
+.demo-editor .style-element-wrapper .dropdown{
+	display: inline-block;
+}
+.demo-editor .style-element-wrapper .dropdown button,
+.demo-editor .style-element-wrapper .dropdown .button{
+	margin-bottom: 0;
+}
